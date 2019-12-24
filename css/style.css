@@ -1,0 +1,74 @@
+/* nav section*/
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin-right: 100px;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding-right: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.navigation{
+    margin: 0px;
+    height: 50px;
+    width:100%;
+    display: flex;
+    background-color: #ff4f4f;
+    position: fixed;
+    z-index:10;
+    justify-content: flex-end;
+}
+/* intro section */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(62,62,62,1) 25%, rgba(19,19,19,1) 100%);
+    color:white;
+}
+
+.intro h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: gold;
+}
+
+.projects{
+    background-color: #636487;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+
+}
+
+.projects h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align:center;
+    font-weight: bold;
+    border-bottom: 0.2rem solid;
+    max-width: 600px;
+    margin: 0 auto 6rem auto;
+    padding-top: 30px;
+    color:white;
+}
+
+}
