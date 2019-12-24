@@ -48,3 +48,27 @@ li{
     font-style: italic;
     color: gold;
 }
+
+.projects{
+    background-color: #636487;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+
+}
+
+.projects h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align:center;
+    font-weight: bold;
+    border-bottom: 0.2rem solid;
+    max-width: 600px;
+    margin: 0 auto 6rem auto;
+    padding-top: 30px;
+    color:white;
+}
+
+}
